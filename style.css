@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:400,900');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 body {
   position: absolute;
   top: 0;
@@ -8,8 +8,14 @@ body {
   margin: 0;
   padding: 0;
   transition: background .2s;
-  font-family: Lato, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #222;
+
+  background-image: url('backgrounds/background_1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
 }
 
 input, button, input:focus, button:focus {
@@ -21,7 +27,7 @@ input, button, input:focus, button:focus {
   outline: 0;
   background: transparent;
   color: #fff;
-  font-family: Lato, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   text-align: center;
   -webkit-appearance: none;
   -moz-appearance: none;
